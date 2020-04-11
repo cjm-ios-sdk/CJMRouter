@@ -1,0 +1,16 @@
+PODS:
+  - CJMRouter (0.1.0)
+
+DEPENDENCIES:
+  - CJMRouter (from `../`)
+
+EXTERNAL SOURCES:
+  CJMRouter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CJMRouter: 4c2a48cf35a5161cdfbbfb3eae8fa4fb22e59129
+
+PODFILE CHECKSUM: fad811121dfe5394e84970e2f05551aed89ab1f7
+
+COCOAPODS: 1.8.4

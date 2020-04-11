@@ -12,4 +12,8 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
++ (instancetype)shareInstance;
+
+- (UINavigationController *)navigationControllerWithRootViewController:(UIViewController *)viewController;
+
 @end

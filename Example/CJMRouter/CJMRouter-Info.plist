@@ -22,12 +22,110 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>youkuad</string>
+		<string>youku</string>
+		<string>fleamarket</string>
+		<string>taobaotravel</string>
+		<string>dingtalk</string>
+		<string>tbopen</string>
+		<string>yhd</string>
+		<string>vipshop</string>
+		<string>suning</string>
+		<string>iMeituan</string>
+		<string>meituan0000</string>
+		<string>jumei</string>
+		<string>jumeimall</string>
+		<string>dianping</string>
+		<string>itmall</string>
+		<string>tmall</string>
+		<string>itaobao</string>
+		<string>taobao</string>
+		<string>mqzoneshare</string>
+		<string>twitterkit-XYC8KvEAYc0cWHBq6gsVyRlIF</string>
+		<string>circle20160324</string>
+		<string>jane</string>
+		<string>mqqopensdkapiV4</string>
+		<string>PocoCamera</string>
+		<string>BeautyCamera</string>
+		<string>babyCamera</string>
+		<string>ArtCamera20140919</string>
+		<string>jack</string>
+		<string>wechat</string>
+		<string>weixinULAPI</string>
+		<string>weixin</string>
+		<string>sinaweibohd</string>
+		<string>sinaweibosso</string>
+		<string>sinaweibo</string>
+		<string>weibosdk</string>
+		<string>weibosdk2.5</string>
+		<string>mqqapi</string>
+		<string>mqq</string>
+		<string>mqqOpensdkSSoLogin</string>
+		<string>mqqconnect</string>
+		<string>mqqopensdkdataline</string>
+		<string>mqqopensdkgrouptribeshare</string>
+		<string>mqqopensdkfriend</string>
+		<string>mqqopensdkapi</string>
+		<string>mqqopensdkapiV2</string>
+		<string>mqqopensdkapiV3</string>
+		<string>mqzoneopensdk</string>
+		<string>wtloginmqq2</string>
+		<string>wtloginmqq</string>
+		<string>mqqwpa</string>
+		<string>mqzone</string>
+		<string>mqzonev2</string>
+		<string>wtloginmqq2</string>
+		<string>wtloginqzone</string>
+		<string>mqzoneopensdkapiV2</string>
+		<string>mqzonewx</string>
+		<string>mqzoneopensdkapi19</string>
+		<string>mqzoneopensdkapi</string>
+		<string>mqzoneopensdk</string>
+		<string>alipay</string>
+		<string>alipayshare</string>
+		<string>whatsapp</string>
+		<string>fbauth</string>
+		<string>mqzone://sdk</string>
+		<string>fbapi</string>
+		<string>fbauth2</string>
+		<string>fbshareextension</string>
+		<string>fbapi20130214</string>
+		<string>fbapi20130410</string>
+		<string>fbapi20131219</string>
+		<string>fbapi20130702</string>
+		<string>fbapi20131010</string>
+		<string>fbapi20140410</string>
+		<string>fbapi20140116</string>
+		<string>fbapi20150313</string>
+		<string>fbapi20150629</string>
+		<string>instagram</string>
+		<string>prefs</string>
+		<string>BeautyCamera</string>
+		<string>jane</string>
+		<string>jack</string>
+		<string>intercamera</string>
+		<string>circle20160324</string>
+		<string>ArtCamera</string>
+		<string>facechatapp</string>
+		<string>PocoCamera</string>
+		<string>pocophoto</string>
+		<string>babyCamera</string>
+		<string>openapp.jdmobile</string>
+		<string>openjd</string>
+		<string>beautycamera420</string>
+		<string>beautycamera</string>
+	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
-	<key>UIMainStoryboardFile</key>
-	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

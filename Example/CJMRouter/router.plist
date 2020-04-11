@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>100001</key>
+	<dict>
+		<key>page_class</key>
+		<string>CJMMainViewController</string>
+		<key>page_name</key>
+		<string>主页</string>
+	</dict>
+	<key>100002</key>
+	<dict>
+		<key>page_class</key>
+		<string>CJMNextViewController</string>
+		<key>page_name</key>
+		<string>下一页</string>
+	</dict>
+</dict>
+</plist>

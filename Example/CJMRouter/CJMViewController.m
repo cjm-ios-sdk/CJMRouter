@@ -7,9 +7,9 @@
 //
 
 #import "CJMViewController.h"
+#import <CJMRouter/CJMRouter.h>
 
 @interface CJMViewController ()
-
 @end
 
 @implementation CJMViewController
@@ -17,7 +17,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.title = @"root 页面";
+    self.view.backgroundColor = [UIColor whiteColor];
+}
+
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    NSString *url = @"app_scheme://goto?open_type=native_page&page_id=100001";
+    [self.navigationController cjmr_pushViewControllerWithUrlString:url paramters:nil animated:YES];    
 }
 
 - (void)didReceiveMemoryWarning
