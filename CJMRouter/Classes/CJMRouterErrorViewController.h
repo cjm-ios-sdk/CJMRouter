@@ -10,6 +10,6 @@
 
 @interface CJMRouterErrorViewController : UIViewController
 @property (nonatomic, copy) NSString *_Nullable errorMessage;
-@property (nonatomic, copy) UITextView * _Nonnull textView;
+@property (nonatomic, strong) UITextView * _Nonnull textView;
 
 @end
