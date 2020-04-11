@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface CJMRouterErrorViewController : UIViewController
 @property (nonatomic, copy) NSString *_Nullable errorMessage;
