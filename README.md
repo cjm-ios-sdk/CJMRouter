@@ -112,7 +112,7 @@ pod 'CJMRouter'
 ## Push
 
 ```shell
-pod trunk push CJMRouter.podspec --allow-warnings --sources=https://github.com/CocoaPods/Specs.git --use-libraries
+pod trunk push CJMRouter.podspec --allow-warnings
 ```
 
 ## Author
