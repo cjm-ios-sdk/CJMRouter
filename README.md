@@ -9,7 +9,7 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-该路由器，实际上只是扩展了UINavigationController的功能，从而实现了路由功能。之所以使用导航控制器来实现路由功能，是因为导航有路由的意思，直接使用导航控制器可以更加方便移植和使用。
+该路由器主要是通过扩展UINavigationController来实现了路由功能。之所以使用导航控制器来实现，是因为导航有路由的意思，直接使用导航控制器可以更加方便移植和使用。
 
 ### 使用
 
