@@ -29,11 +29,10 @@
  * @brief 获取url中的path
  */
 - (NSString *)cjmr_path {
-    NSArray *strs = [self componentsSeparatedByCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@"//?"]];
-    if (strs.count > 1) {
-        return [strs objectAtIndex:strs.count - 2];
-    }
-    return nil;
+    NSArray *strs = [self componentsSeparatedByString:@"?"];
+    NSString *firstStr = strs.firstObject;
+    NSArray *components = [firstStr componentsSeparatedByString:@"://"];
+    return components.lastObject;
 }
 
 /**
