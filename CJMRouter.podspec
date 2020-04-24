@@ -9,24 +9,15 @@
 Pod::Spec.new do |s|
   s.name             = 'CJMRouter'
   s.version          = '0.1.1'
-  s.summary          = 'A short description of CJMRouter.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.summary          = '基于UINavigationController的路由器'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  该路由器是基于UINavigationController实现的，使用原生的控件来导航页面跳转功能，可以简化逻辑和方便使用。
                        DESC
 
   s.homepage         = 'https://github.com/cjm-ios-sdk/CJMRouter'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'chenjm' => 'cjiemin@163.com' }
   s.source           = { :git => 'https://github.com/cjm-ios-sdk/CJMRouter.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
