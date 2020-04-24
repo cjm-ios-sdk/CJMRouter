@@ -60,8 +60,8 @@
  * @param urlString urlEncode的字符串，+号转为空格号。
  * @param paramters 如果是内部页面，可以传入viewController的参数
  */
-- (UIViewController *)viewControllerWithUrlString:(NSString *_Nonnull)urlString
-                                        paramters:(NSDictionary *_Nullable)paramters {
+- (UIViewController *)viewControllerWithUrlString:(NSString *)urlString
+                                        paramters:(NSDictionary *)paramters {
     CJMRouterRequest *routerRequest = [[CJMRouterRequest alloc] initWithUrlString:urlString paramters:paramters];
     if (self.cjmr_routerDelegate) {
         return [self.cjmr_routerDelegate navigationController:self routerRequest:routerRequest];

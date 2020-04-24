@@ -47,7 +47,7 @@
  * @param urlString urlEncode的字符串，+号转为空格号。
  * @param paramters 如果是内部页面，可以传入viewController的参数
  */
-- (UIViewController *)viewControllerWithUrlString:(NSString *_Nonnull)urlString
+- (UIViewController *_Nullable)viewControllerWithUrlString:(NSString *_Nonnull)urlString
                                         paramters:(NSDictionary *_Nullable)paramters;
 
 /**
