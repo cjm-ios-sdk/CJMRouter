@@ -50,14 +50,14 @@
     if (self.cjmr_routerDelegate) {
         UIViewController *vc = [self.cjmr_routerDelegate navigationController:self routerRequest:routerRequest];
         if (vc) {
-            [self pushViewController:vc animated:animated];
+            [self presentViewController:vc animated:animated completion:completion];
         }
     }
 }
 
 - (void)cjmr_dismissViewControllerWithAnimated:(BOOL)animated
                                     completion:(void (^)(void))completion {
-    [self.navigationController dismissViewControllerAnimated:animated completion:completion];
+    [self dismissViewControllerAnimated:animated completion:completion];
 }
 
 - (void)cjmr_openUrlString:(NSString *)urlString

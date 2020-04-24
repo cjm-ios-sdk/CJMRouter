@@ -96,6 +96,10 @@ navigationController.view.backgroundColor = [UIColor grayColor];
 }];
 ```
 
+## Version
+
+- 0.1.1 修复presetViewController的bug
+
 
 
 ## Requirements
